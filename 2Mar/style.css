@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    border-width: 3px;
+    border-color: red;
+    border-style: dotted;
+    
+}
+/* shorthand */
+p{
+    border-top: 5px solid blue;
+    border-bottom: 5px solid red;
+    border-left: 5px solid greenyellow;
+    border-right: 5px solid black;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 40px;
+}
+.circle{
+    width: 200px;
+    height: 200px;
+    border: 5px solid blue;
+    border-radius: 50%;
+}
+h2{
+    border: 3px solid red;
+    padding-top: 10px;
+    padding-right: 40px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    /* shoethand top right botton left */
+    padding:  10px 20px 30px 40px;
+    /* shorthand top/bottom left/right */
+    padding: 20px 30px;
+    /* all sides */
+    padding: 20px;
+    /* margin all sides */
+    margin: 30px;
+/* shoethand top right botton left */
+margin:  10px 20px 30px 40px;
+/* shorthand top/bottom left/right */
+margin: 20px 30px;
+ 
+    margin-top: 10px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+    margin-left: 40px;
+}

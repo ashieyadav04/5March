@@ -1,0 +1,47 @@
+/* Universal selector */
+* {
+    background-color: pink;
+}
+body{
+    font-family: cursive;
+     text-align: center;
+}
+
+
+/* Element Selector */
+h1 {
+    color: blueviolet;
+    font-size: 50px;
+}
+/* 
+Id selector ....id is always unique */
+#myheading {
+    background-color:black;
+} 
+
+/* id selector */
+.para {
+    background-color: brown;
+}
+.mypara {
+    background-color:rgb(154, 188, 0);
+    background-color: rgb(154, 188, 0, 0.4);
+    background-color: #333;
+    /*  */
+    line-height: 1.8;
+    font-weight: 800;
+    text-decoration: underline;
+    text-decoration: underline;
+    text-transform: lowercase;
+
+
+}
+/* Multiple selector */
+h1,
+p{
+    font-size: 50px;
+    font-style: italic;
+}
+
+
+

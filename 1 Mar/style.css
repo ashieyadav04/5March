@@ -1,0 +1,36 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+/* nested selector */
+div h1 {
+    background-color: yellowgreen;
+}
+div p span{
+    background-color: brown;
+}
+/* nested with multiple selector */
+h1
+div p {
+    background-color: blueviolet;
+    color: black;
+    font-size: 40px;
+}
+
+h1{
+    background-color: rgb(255, 0, 0);
+
+}
+p{
+    background-color: #77b000;
+    line-height: 1.4;
+}
+div{
+    height: 1000px;
+    background-image:url(/);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    
+/* shorthand */
+background: url() no-repeat center center/ cover;
+}
